@@ -38,6 +38,10 @@ const connect = async () => {
 };
 
 const port = process.env.PORT || 8800;
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // '*' allows requests from any domain
+  next();
+});
 
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
