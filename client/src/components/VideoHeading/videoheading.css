@@ -1,0 +1,194 @@
+.videoHeading {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: full;
+  max-width: 966px;
+}
+
+.videoHeading :first-child {
+  color: #0f0f0f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.headingMain {
+  display: flex;
+  padding-top: 12px;
+  align-items: center;
+  gap: 12px;
+}
+
+.mainLHS {
+  display: flex;
+  padding-right: 0px;
+  align-items: center;
+  flex: 1 0 0;
+  padding-right: 87px;
+}
+
+.mainLHS img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.avatarParaSec {
+  margin-left: 12px;
+}
+
+.avatarParaSec p:first-child {
+  color: #0f0f0f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.avatarParaSec p:last-child {
+  color: #606060;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.mainLHS .span1 {
+  display: flex;
+  padding: 0px 16px 0px 15px;
+  align-items: flex-start;
+  border-radius: 18px;
+  border: none;
+  background: rgba(0, 0, 0, 0.05);
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-left: 39px;
+  margin-right: 8px;
+}
+
+.mainLHS .span2 {
+  display: flex;
+  padding: 0px 15.563px 0px 16px;
+  align-items: flex-start;
+  flex: 1 0 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  border-radius: 18px;
+  background: #0f0f0f;
+  cursor: pointer;
+
+}
+
+.mainRHS {
+  display: flex;
+  padding-left: 98px;
+  align-items: flex-start;
+  width: full;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mainRHS .likeBtnSet {
+  display: flex;
+  gap: 0;
+}
+
+.likeBtnSet button:nth-child(1) {
+  display: flex;
+  padding: 0px 15.703px 0px 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  align-items: center;
+  gap: 6px;
+  flex: 1 0 0;
+  border-radius: 18px 0px 0px 18px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.likeBtnSet button img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.border {
+  border: 1px solid tomato;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.likeBtnSet button p {
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.likeBtnSet button:nth-child(2) {
+  display: flex;
+  height: 36px;
+  padding: 6px 17px 6px 11px;
+  border: none;
+  align-items: center;
+  border-radius: 0px 18px 18px 0px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.mainRHS .share,
+.save {
+  display: flex;
+  padding: 0px 15.109px 0px 10px;
+  align-items: center;
+  gap: 6px;
+  flex: 1 0 0;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.share img,
+.save img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.share p,
+.save p {
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.moreHoriz {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+}

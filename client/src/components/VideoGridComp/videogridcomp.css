@@ -1,0 +1,54 @@
+.videoGridEle {
+  display: flex;
+  max-width: 290px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.videoGridElImg {
+  max-height: 162px;
+  align-self: stretch;
+  border-radius: 5px;
+}
+
+.avatarParent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.avatarParent img {
+  border-radius: 30px;
+  background: lightgray 50% / cover no-repeat, #c4c4c4;
+  width: 30px;
+  height: 30px;
+}
+
+.avatarParent p {
+  flex: 1 0 0;
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.userInfo {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+  align-self: stretch;
+}
+
+.userInfo p {
+  color: #727272;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}

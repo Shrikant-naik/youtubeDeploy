@@ -1,0 +1,15 @@
+.homepage {
+  width: full;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainParent {
+  display: flex;
+}
+
+.gridMain {
+  display: flex;
+  flex-direction: column;
+}

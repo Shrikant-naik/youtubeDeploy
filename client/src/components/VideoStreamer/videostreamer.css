@@ -1,0 +1,11 @@
+.videoStreamer {
+  max-height:  483px;
+  min-width: 966px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+
+  /* object-fit: cover; */
+  border: 1px solid red;
+}
+
+

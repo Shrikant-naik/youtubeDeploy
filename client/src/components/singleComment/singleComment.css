@@ -1,0 +1,161 @@
+.commentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 966px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.commSecTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.commHeader {
+  display: flex;
+  width: 966px;
+  padding-right: 0px;
+  align-items: flex-end;
+  gap: 31.391px;
+}
+
+.commHeader :first-child {
+  color: #0f0f0f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.commHeader :last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 3px;
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+
+.commHeader span img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/* .commentInput {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.commentInput img {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 20px;
+  background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.commentInput input {
+  display: flex;
+  padding: 0px 783px 5px 0px;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+} */
+
+.commentMain {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.commentMain img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.commentUser {
+  display: flex;
+  padding: 0px 702.422px 2px 0px;
+  align-items: flex-start;
+  gap: 3.578px;
+}
+
+.commentUser p:first-child {
+  color: #0f0f0f;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.commentUser p:last-child {
+  color: #606060;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.commentMainRHS {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.commentMainRHS .comment {
+  width: 903.606px;
+  color: #0f0f0f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.commentReact {
+  width: 910px;
+  height: 36px;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+  gap: 11px;
+}
+
+.likedComm {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.likedComm p {
+  color: #606060;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.commentReact img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background-color: inherit;
+}

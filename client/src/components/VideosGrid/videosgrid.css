@@ -1,0 +1,10 @@
+.videoGridSec {
+  width: full;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-self: stretch;
+  background: #f9f9f9;
+  gap: 36px;
+  margin: 12px;
+}

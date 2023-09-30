@@ -1,0 +1,58 @@
+.sidebarParent {
+  display: inline-flex;
+  padding: 12px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  min-width: 195px;
+}
+
+.secEndLine {
+  width: 185px;
+  margin: 13px auto;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+section {
+  display: flex;
+  padding: 16px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+section p {
+  color: #0f0f0f;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+section button {
+  display: flex;
+  background-color: #fff;
+  padding: 0px 16px 0px 10px;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+section button img {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+section button p {
+  color: #065fd4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}

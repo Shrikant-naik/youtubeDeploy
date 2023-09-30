@@ -1,0 +1,153 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px 8px 12px;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.navLHS {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  gap: 16px;
+}
+
+.navLHS img:first-child {
+  width: 24px;
+  height: 24px;
+}
+
+.navLHS img:last-child {
+  display: flex;
+  width: 90px;
+  height: 20px;
+  padding-right: 0px;
+  justify-content: center;
+  gap: 2.824px;
+}
+
+.searchSec {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.searchSec .micIcon {
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 0;
+  background: #f9f9f9;
+}
+
+.searchSec .micIcon img {
+  width: 20px;
+  height: 20px;
+}
+
+.searchBar {
+  max-width: 473px;
+  display: flex;
+  width: auto;
+  gap: 0;
+}
+
+.searchBar input {
+  width: 479px;
+  flex-wrap: wrap;
+  border-radius: 40px 0px 0px 40px;
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border: 1px solid #ccc;
+  border-right: none;
+  background: #fff;
+}
+
+.searchBar input::placeholder {
+  color: #888;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.searchBar button {
+  display: flex;
+  border-left: none;
+  width: 54px;
+  padding: 4px 16px;
+  justify-content: center;
+  border-left: none;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 0px 40px 40px 0px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+}
+
+.signInBtn {
+  background-color: #fff;
+  display: flex;
+  padding: 0px 16px 0px 10px;
+  align-items: center;
+  gap: 6px;
+  flex: 1 0 0;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.signInBtn img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.signInBtn p {
+  color: #065fd4;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+
+.navRHS {
+  display: flex;
+  gap: 16px;
+}
+
+.navRHS .user{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  color: black;
+}
+
+.navRHS .user .avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #999;
+}
+
+.logout{
+  padding: 8px 12px;
+  border: none;
+  background-color:#9696f0;
+  cursor: pointer;
+  border-radius: 5px;
+}
