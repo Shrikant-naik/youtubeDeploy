@@ -37,6 +37,8 @@ const connect = async () => {
     });
 };
 
+const port = process.env.PORT || 8800;
+
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/videos", videoRoute);
@@ -53,7 +55,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(8800, async () => {
+app.listen(port, async () => {
   await connect();
   console.log("Connected to Server");
 });
