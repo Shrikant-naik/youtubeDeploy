@@ -17,7 +17,7 @@ dotenv.config();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://youtube-final-fe.vercel.app", // Replace with your frontend's URL
+    origin: "http://localhost:3000", // Replace with your frontend's URL
 
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true, // Allow credentials (cookies)
@@ -26,6 +26,7 @@ app.use(
 app.use(cookieParser());
 
 const connect = async () => {
+  console.log(process.env.DATABASE_URL,"connected to db");
   await mongoose
     .connect(process.env.DATABASE_URL)
     .then(() => {
