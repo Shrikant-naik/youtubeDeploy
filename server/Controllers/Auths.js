@@ -27,7 +27,7 @@ export const login = async (req, res, next) => {
     if (!cheaKPassword)
       return next(createError(400, "wrong password or username"));
 
-    const token = jwt.sign({ id: user._id }, "123456789!@#$%^&*(");
+    const token = jwt.sign({ id: user._id }, process.env.JWT);
 
     const { password, ...sendUser } = user._doc;
 
@@ -49,7 +49,7 @@ export const google = async (req, res, next) => {
     });
 
     if (user) {
-      const token = jwt.sign({ id: user._id }, "123456789!@#$%^&*(");
+      const token = jwt.sign({ id: user._id }, process.env.JWT);
       res
         .cookie("access_token", token, {
           httpOnly: true,
@@ -62,7 +62,7 @@ export const google = async (req, res, next) => {
 
       const savedUser = await newUser.save();
 
-      const token = jwt.sign({ id: savedUser._id }, "123456789!@#$%^&*(");
+      const token = jwt.sign({ id: savedUser._id }, process.env.JWT);
       res
         .cookie("access_token", token, {
           httpOnly: true,
