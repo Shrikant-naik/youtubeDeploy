@@ -26,6 +26,7 @@ app.use(
 app.use(cookieParser());
 
 const connect = async () => {
+  console.log(process.env.DATABASE_URL,"connected to db");
   await mongoose
     .connect(process.env.DATABASE_URL)
     .then(() => {
